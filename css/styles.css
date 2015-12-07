@@ -168,12 +168,8 @@ h4 {
 }
 
 @media (max-width: 756px) {
-	.calcontain {
-		width:349px;
-	}
-
-	.calender {
-		width:349px;
+	body {
+		width:756px;
 	}
 }
 /*END OF CALENDAR*/
