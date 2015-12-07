@@ -186,7 +186,7 @@ form {
 
 
 
-@media screen and (max-device-width : 349px) {
+@media screen and (max-device-width: @grid-float-breakpoint) {
 	html {
 		width:100%;
 }
@@ -194,7 +194,7 @@ form {
 		width:100%;
 	}
 
-	body {
+	.outside {
 		width:349px;
 	}
 }
