@@ -186,7 +186,7 @@ form {
 
 
 
-@media screen and (max-device-width: 349px) {
+@media screen and (max-device-width: 580px) {
 	html {
 		width:100%;
 }
@@ -195,7 +195,7 @@ form {
 	}
 
 	.outside {
-		width:349px;
+		width:100%;
 	}
 }
 
