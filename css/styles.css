@@ -186,8 +186,7 @@ form {
 
 /*
 
-/* Smartphones (portrait and landscape) ----------- */
-@media screen and (max-device-width : 320px) {
+@media screen and (max-device-width : ) {
 	html {
 		width:320px;
 }
