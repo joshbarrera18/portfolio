@@ -167,11 +167,11 @@ h4 {
 	width:349px;
 }
 
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
 	html {
 		margin: 0 auto;
 	}
-}
+}*/
 /*END OF CALENDAR*/
 
 /*SIGN UP FORM*/
@@ -185,6 +185,16 @@ form {
 
 
 /*
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	html {
+		height:100%;
+		width:0px auto;
+}
+/* Styles */
+}
+
 font-family: 'Paytone One', sans-serif;
 
 font-family: 'Molengo', sans-serif;
