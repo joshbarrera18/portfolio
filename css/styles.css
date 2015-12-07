@@ -167,9 +167,9 @@ h4 {
 	width:349px;
 }
 
-@media (min-width: 767px) {
+@media (max-width: 767px) {
 	html {
-		width:auto;
+		margin: 0 auto;
 	}
 }
 /*END OF CALENDAR*/
