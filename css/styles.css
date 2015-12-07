@@ -168,7 +168,7 @@ h4 {
 }
 
 @media (min-width: @screen-xs-min) {
-	body {
+	html {
 		width:auto;
 	}
 }
