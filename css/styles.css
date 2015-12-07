@@ -184,23 +184,22 @@ form {
 /*END OF SIGN UP FORM*/
 
 
-/*
 
-@media screen and (max-device-width : ) {
+
+@media screen and (max-device-width : 349px) {
 	html {
-		width:320px;
+		width:100%;
 }
 	.navbar {
-		width:320px;
+		width:100%;
 	}
 
 	body {
-		width:320px;
+		width:349px;
 	}
-/* Styles */
 }
 
-font-family: 'Paytone One', sans-serif;
+/*font-family: 'Paytone One', sans-serif;
 
 font-family: 'Molengo', sans-serif;
 
