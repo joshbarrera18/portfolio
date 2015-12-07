@@ -11,7 +11,7 @@ body {
 }
 .navbar {
 	margin-bottom:20px;
-	/*position:absolute;*/
+	position:absolute;
 	width:100%;
 	z-index:20;
 }
@@ -184,21 +184,20 @@ form {
 /*END OF SIGN UP FORM*/
 
 
-/*
 
-@media screen and (max-device-width: 580px) {
-	html {
-		width:100%;
-}
+
+@media (max-width: 767px) {
 	.navbar {
+		float:none;
 		width:100%;
+		margin:0 auto;
 	}
 
 	.outside {
 		width:100%;
 	}
 }
-*/
+
 /*font-family: 'Paytone One', sans-serif;
 
 font-family: 'Molengo', sans-serif;
