@@ -10,10 +10,12 @@ body {
 	border-color:#000;
 }
 .navbar {
-	margin-bottom:20px;
+	margin-bottom:0px;
 	position:relative;
 	width:100%;
 	z-index:20;
+	clear:both;
+
 }
 
 .navbar-brand {
@@ -21,6 +23,9 @@ body {
 	background-color:#003366;
 }
 
+.navbar-default .navbar-brand {
+     color: #3366ff; 
+} 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus, 
 .navbar-default .navbar-nav>.active>a:hover {     
@@ -36,7 +41,7 @@ body {
 
 .navbar-default .navbar-nav>li>a:focus, 
 .navbar-default .navbar-nav>li>a:hover {
-    color: ##003399;
+    color: #003399;
     background-color:#ccccff; /*l-light blue*/
     /*background-color: rgba(17, 17, 17, .2);*/
 }
@@ -96,7 +101,7 @@ body {
 	float:right;
 }
 .col-sm-4 .product {
-	display:block;
+	/*display:block;*/
 	/*clear:both;*/
 	/*padding:20px;*/
 	/*float:left;*/
@@ -124,7 +129,7 @@ h4 {
 .wufoo-m1hvuc7l04drfod{
     /*margin: 0;*/
     padding-top: 60px;
-    clear: both;
+    /*clear:both;*/
     background-color: #99b3ff;
     position: relative;
     -webkit-transition: background-color 350ms ease-out;
@@ -132,7 +137,7 @@ h4 {
 }
 
 .wufoo {
-	padding-top:60px;
+	/*padding-top:60px;*/
 	background-color:#99b3ff;
 	text-shadow: 10px 10px 10px #000;
 	font-size:1.5em;
@@ -140,16 +145,18 @@ h4 {
 
 /*FEATURED*/
 .container {
-	padding-top:60px;
+	/*padding-top:40px;*/
 	background-color:#99b3ff;
+	width:100%;
 
 }
+
 
 /*END OF FEATURED*/
 
 /*ABOUT*/
 .jumbotron {
-	padding-top:60px;
+	padding-top:10px;
 	background-color:#99b3ff;
 }
 
@@ -160,11 +167,11 @@ h4 {
 
 .calcontain {
 	background-color:#99b3ff;
-	padding-top:60px;
+	/*padding-top:10px;*/
 }
 
 .calendar {
-	width:349px;
+	width:100%;
 }
 
 /*@media (max-width: 767px) {
