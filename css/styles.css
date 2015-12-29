@@ -200,7 +200,7 @@ form {
 		margin:0 auto;
 	}
 
-	.outside {
+	.outside, .container, .container-fluid {
 		width:100%;
 	}
 }
