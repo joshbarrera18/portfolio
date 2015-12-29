@@ -201,7 +201,7 @@ form {
 	}*/
 
     .outside, .container, .container-fluid, .wufoo, #carousel-example-generic,
-	.content, .row, .form-group, .navbar {
+	.content, .row, .form-group, .navbar, .calcontain {
          width:100%;     
     } 
  }
