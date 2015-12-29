@@ -200,10 +200,11 @@ form {
 		margin:0 auto;
 	}
 
-	.outside, .container, .container-fluid {
-		width:100%;
-	}
-}
+    .outside, .container, .container-fluid, .wufoo, #carousel-example-generic,
+	.content, .row, .form-group {
+         width:100%;     
+    } 
+ }
 
 
 
