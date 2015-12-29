@@ -224,6 +224,16 @@ form {
     margin: 0;
     /*clear: left;*/
 	}
+	.agenda .scrollbox {
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-top: 0 none;
+    border-left: 0 none;
+    border-bottom: 1px solid #bcf;
+    background-color: white;
+    margin-top: 6px;
+}
 }
 
 
