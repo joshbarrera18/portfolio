@@ -217,8 +217,14 @@ form {
     .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
      margin-right: 0px; 
      margin-left: 0px; 
+	}
+	.info h2 {
+    font-weight: 700;
+    font-size: 160%;
+    margin: 0;
+    /*clear: left;*/
+	}
 }
- }
 
 
 
