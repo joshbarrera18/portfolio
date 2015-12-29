@@ -218,9 +218,9 @@ form {
      margin-right: 0px; 
      margin-left: 0px; 
 	}
-	.info h2 {
+	.info h2, .info {
     font-weight: 700;
-    font-size: 160%;
+    font-size: .7em;
     margin: 0;
     /*clear: left;*/
 	}
