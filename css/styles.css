@@ -205,10 +205,19 @@ form {
     .outside, .container, .container-fluid, .wufoo, #carousel-example-generic,
 	.content, .row, .form-group, .navbar, .calcontain, .calendar {
          width:100%;
-         margin:0px;
+         /*margin:0px;*/
          padding:0px;
-         display:block;
+         /*display:block;*/
     } 
+
+    .navbar-toggle, .navbar-collapse, .navbar-header {
+    	/*margin:0px auto;
+    	padding: 0px;*/
+    }
+    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+     margin-right: 0px; 
+     margin-left: 0px; 
+}
  }
 
 
