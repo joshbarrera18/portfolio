@@ -194,14 +194,14 @@ form {
 
 
 @media (max-width: 767px) {
-	.navbar {
+	/*.navbar {
 		float:none;
 		width:100%;
 		margin:0 auto;
-	}
+	}*/
 
     .outside, .container, .container-fluid, .wufoo, #carousel-example-generic,
-	.content, .row, .form-group {
+	.content, .row, .form-group, .navbar {
          width:100%;     
     } 
  }
