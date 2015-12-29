@@ -201,8 +201,11 @@ form {
 	}*/
 
     .outside, .container, .container-fluid, .wufoo, #carousel-example-generic,
-	.content, .row, .form-group, .navbar, .calcontain {
-         width:100%;     
+	.content, .row, .form-group, .navbar, .calcontain, .calendar {
+         width:100%;
+         margin:0px;
+         padding:0px;
+         display:block;
     } 
  }
 
@@ -216,4 +219,4 @@ font-family: 'Ubuntu Condensed', sans-serif;
 
 font-family: 'News Cycle', sans-serif;
 
-font-family: 'Cabin Condensed', sans-serif;*/
+font-family: 'Cabin Condensed', sans-serif;
